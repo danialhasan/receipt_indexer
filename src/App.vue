@@ -17,7 +17,7 @@ onMounted(() => {
   <div class="h-screen bg-gray-800 text-white">
     <header class="py-16">
       <h1 class="mb-6 text-center text-5xl font-bold">Create Tailwind</h1>
-      <p className="text-center mb-6 text-xl">
+      <p className="text-center mb-6 text-2xl">
         If you like this project, consider giving it a star on GitHub!
       </p>
 
