@@ -13,6 +13,10 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true
   },
+  "vueCompilerOptions": {
+    "target": 2.7
+    // "target": 2, // For Vue version <= 2.6.14
+  },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
