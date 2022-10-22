@@ -9,6 +9,7 @@ export default {
   methods: {
     previewFile(file: string) {
       const imagePreview = document.getElementById("imagePreview");
+      //@ts-ignore
       if (imagePreview) imagePreview.src = file;
     },
   },
